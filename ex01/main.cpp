@@ -6,7 +6,7 @@
 /*   By: mari-cruz <mari-cruz@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 11:25:41 by mari-cruz         #+#    #+#             */
-/*   Updated: 2025/11/25 11:25:52 by mari-cruz        ###   ########.fr       */
+/*   Updated: 2025/11/25 12:48:48 by mari-cruz        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,4 +27,4 @@ int main( void ) {
 	std::cout << "c is " << c.toInt() << " as integer" << std::endl;
 	std::cout << "d is " << d.toInt() << " as integer" << std::endl;
 	return 0;
-	}
+}
