@@ -6,7 +6,7 @@
 /*   By: mari-cruz <mari-cruz@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 12:45:17 by mari-cruz         #+#    #+#             */
-/*   Updated: 2025/11/25 10:26:22 by mari-cruz        ###   ########.fr       */
+/*   Updated: 2025/12/14 14:21:09 by mari-cruz        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,10 @@ Fixed::Fixed() : fixedPoint(0)
 	std::cout << "Default constructor called" << std::endl;
 }
 
-Fixed::Fixed(int a) : fixedPoint(a << fractionalBits) {}
+Fixed::Fixed(int a) : fixedPoint(a << fractionalBits)
+{
+	std::cout << "Constructor called" << std::endl;
+}
 
 Fixed::Fixed(const Fixed& a) : fixedPoint(a.fixedPoint) 
 {
