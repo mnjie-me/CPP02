@@ -6,7 +6,7 @@
 /*   By: mari-cruz <mari-cruz@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 11:25:13 by mari-cruz         #+#    #+#             */
-/*   Updated: 2025/11/25 12:48:26 by mari-cruz        ###   ########.fr       */
+/*   Updated: 2025/12/14 14:28:05 by mari-cruz        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,12 +52,12 @@ Fixed& Fixed::operator=(const Fixed& object)
 	return (*this);
 }
 
-float Fixed::toFloat( void ) const
+float Fixed::toFloat(void) const
 {
 	return (static_cast<float>(fixedPoint) / (1 << fractionalBit));
 }
 
-int Fixed::toInt( void ) const
+int Fixed::toInt(void) const
 {
 	return (fixedPoint >> fractionalBit);
 }
