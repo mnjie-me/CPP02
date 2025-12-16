@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mari-cruz <mari-cruz@student.42.fr>        +#+  +:+       +#+        */
+/*   By: mnjie-me <mnjie-me@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 12:32:50 by mari-cruz         #+#    #+#             */
-/*   Updated: 2025/11/25 10:07:34 by mari-cruz        ###   ########.fr       */
+/*   Updated: 2025/12/16 14:11:46 by mnjie-me         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ class Fixed
 {
 	private:
 	
-		int					fixedPoint;
+		int					rawBits;
 		static const int	fractionalBits;
 
 	public:
@@ -28,6 +28,6 @@ class Fixed
 		Fixed& operator=(const Fixed& a);
 		~Fixed();
 		
-		int getRawBits( void ) const;
-		void setRawBits( int const raw );
+		int getRawBits(void) const;
+		void setRawBits(int const raw);
 };
