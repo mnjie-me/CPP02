@@ -6,7 +6,7 @@
 /*   By: mnjie-me <mnjie-me@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 12:32:50 by mari-cruz         #+#    #+#             */
-/*   Updated: 2025/12/16 14:11:46 by mnjie-me         ###   ########.fr       */
+/*   Updated: 2025/12/16 14:40:47 by mnjie-me         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ class Fixed
 	public:
 
 		Fixed();
-		Fixed(int a);
 		Fixed(const Fixed& a);
 		Fixed& operator=(const Fixed& a);
 		~Fixed();
